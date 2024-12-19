@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemical Reaction Safety Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Chemical Reaction Safety Analyzer</h1>
+        <p>เว็บไซต์สำหรับการวิเคราะห์ความปลอดภัยในปฏิกิริยาเคมี</p>
+    </header>
+
+    <section id="reaction-section">
+        <h2>กรอกข้อมูลปฏิกิริยาเคมี</h2>
+        <form id="reaction-form">
+            <label for="reaction">สูตรปฏิกิริยา (เช่น 2H₂ + O₂ → 2H₂O):</label>
+            <input type="text" id="reaction" name="reaction" required><br>
+
+            <label for="substance">สารตั้งต้น (เช่น H₂, O₂):</label>
+            <input type="text" id="substance" name="substance" required><br>
+
+            <label for="amount">ปริมาณสารตั้งต้น (กรัม):</label>
+            <input type="number" id="amount" name="amount" required><br>
+
+            <button type="button" onclick="analyzeSafety()">วิเคราะห์ความปลอดภัย</button>
+        </form>
+    </section>
+
+    <section id="result-section">
+        <h2>ผลการวิเคราะห์</h2>
+        <p id="output"></p>
+    </section>
+
+    <section id="recommendation-section">
+        <h2>คำแนะนำในการปรับปรุงความปลอดภัย</h2>
+        <p id="recommendation"></p>
+    </section>
+
+    <script src="script.js"></script> <!-- เชื่อมโยงไปยังไฟล์ JavaScript -->
+</body>
+</html>

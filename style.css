@@ -1,0 +1,52 @@
+body { 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e3f2fd; /* ฟ้าสว่าง */
+}
+
+header {
+    background-color: #1976D2; /* ฟ้าน้ำเงินเข้ม */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #333;
+}
+
+form input, form button {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #1976D2; /* ฟ้าน้ำเงินเข้ม */
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #1565C0; /* ฟ้าน้ำเงินเข้มขึ้น */
+}
+
+#result-section {
+    background-color: #BBDEFB; /* ฟ้าปานกลาง */
+    border-left: 5px solid #2196F3; /* ฟ้าเข้ม */
+}
+
+#recommendation-section {
+    background-color: #e1f5fe; /* ฟ้าจาง */
+    border-left: 5px solid #1E88E5; /* ฟ้าน้ำเงินเข้ม */
+}
